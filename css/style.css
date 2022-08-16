@@ -1,0 +1,850 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+p,
+li,
+a {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+.headingLine {
+  text-align: left;
+  font-size: 30px;
+}
+.headingLine img {
+  vertical-align: middle;
+}
+
+/* main hero section  */
+
+.mainHero {
+  background: url("../images/bgPic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+.innerMainHero {
+  width: 100%;
+  height: 100%;
+  background-color: #f2eab9f2;
+}
+
+/* Header  */
+
+.header {
+  padding: 15px 40px;
+  overflow: hidden;
+}
+
+/* Logo  */
+
+.logo {
+  float: left;
+}
+.logoIcon {
+  position: relative;
+  width: 20px;
+}
+.logoIcon .border {
+  border: 2px solid #470005;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: -4px;
+  left: 2px;
+}
+.logoIcon .black {
+  background-color: #470005;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  left: 9px;
+  top: -3px;
+}
+.logoIcon .black .small {
+  background-color: #e9e5b7;
+  padding: 4px;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+.logo h4 {
+  margin-left: 37px;
+  font-weight: bold;
+}
+
+/* Icon right  */
+
+.header .icon {
+  width: 50px;
+  float: right;
+}
+.header .icon .firstLine {
+  width: 40px;
+  border: 2px solid #470005;
+  margin-bottom: 5px;
+  margin-left: auto;
+}
+.header .icon .secondLine {
+  width: 20px;
+  border: 2px solid #470005;
+  margin-left: auto;
+}
+
+/* Hero Image  */
+
+.heroImage {
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.heroImageText {
+  width: 60%;
+  float: left;
+  padding: 0 60px;
+  margin-top: 80px;
+  overflow: hidden;
+}
+.heroImageText .left {
+  float: left;
+  width: 30%;
+  padding-top: 143px;
+}
+.heroImageText .left p {
+  height: 100px;
+  position: relative;
+  border-left: 2px solid #470005;
+}
+
+.heroImageText .left p span {
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  color: black;
+}
+
+.heroImageText .right {
+  float: left;
+  width: 70%;
+}
+.heroImageText .right h1 {
+  font-size: 46px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  color: #470005;
+}
+
+.heroImageText .right p {
+  color: #181818b0;
+  font-size: 15px;
+  margin-top: 22px;
+}
+
+.heroImageText .right .twoButtons {
+  padding: 40px 0;
+}
+.heroImageText .right .twoButtons a.dark {
+  background-color: #470005;
+  color: white;
+}
+.heroImageText .right .twoButtons a {
+  padding: 8px 24px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fffdfd;
+  color: black;
+}
+
+/* heroImageSide */
+
+.heroImageSide {
+  float: left;
+  width: 40%;
+  position: relative;
+  padding-top: 50px;
+  background: url("../images/herolines.jpg");
+  background-repeat: no-repeat;
+  height: 450px;
+  padding-left: 25px;
+}
+
+.heroImageSide .front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heroImageSide .front img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+/* paginationSection  */
+
+.paginationSectionOuter {
+  position: relative;
+  width: 50%;
+  bottom: 10px;
+  height: 250px;
+}
+.paginationSectionInner {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+
+.paginationSectionInner .imgPart {
+  float: left;
+  width: 50%;
+  background: url("../images/smallVideoImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.paginationSectionInner .imgPart .big {
+  width: 70px;
+  background: #ffffff75;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 83px;
+  padding: 10px 0;
+}
+.paginationSectionInner .imgPart .medium {
+  width: 50px;
+  background: #ffffffba;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.paginationSectionInner .imgPart .small {
+  width: 30px;
+  background: #470005;
+  height: 30px;
+  border-radius: 70%;
+  margin: 0 auto;
+  padding: 8px 10px;
+}
+
+.paginationSectionInner .imgPart .small i {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.paginationSectionInner .textPart {
+  float: left;
+  width: 50%;
+  line-height: 300px;
+}
+
+/* pagination Part  */
+
+.paginationPart {
+  width: 200px;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+}
+
+.paginationPart a {
+  padding: 15px 15px;
+  border-radius: 50%;
+  border: none;
+  background: black;
+  color: white;
+}
+.paginationPart a.brown {
+  background-color: #470005;
+}
+
+/* Service Section  */
+
+.service {
+  overflow: hidden;
+  padding: 90px 0 0 0;
+}
+
+.service h1 {
+  text-align: left;
+  padding: 50px 0;
+  font-size: 30px;
+}
+.service .serviceParts {
+  padding: 50px 0;
+}
+.service .servicePart {
+  position: relative;
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+  background-color: #f4f1c3;
+  padding: 70px 13px;
+}
+.service .servicePart .servicePicTop {
+  width: 100px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #f4f1c3;
+  border: 2px solid white;
+  position: absolute;
+  top: -53px;
+  left: 14px;
+}
+.service .servicePart .servicePicTop i {
+  font-size: 50px;
+  text-align: center;
+}
+
+.service .servicePart .servicePicTop.servicePicTopDark {
+  background-color: #470005;
+}
+.service .servicePart h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.service .servicePart p {
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: black;
+}
+.service .servicePart.servicePartDark {
+  background-color: #470005;
+  color: white !important;
+}
+
+/* About Us  */
+
+.aboutUs {
+  
+  padding-top: 91px;
+  clear: both;
+}
+.aboutUs .headingLine h1 {
+  padding: 40px 0;
+}
+.aboutUs .left {
+  float: left;
+  width: 50%;
+}
+.aboutUs .right {
+  float: left;
+  width: 50%;
+  padding: 20px 10px;
+}
+.aboutUs .right h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.aboutUs .right p {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-bottom: 26px;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 49px;
+}
+.aboutUs .right a {
+  border: none;
+  padding: 12px 21px;
+  border-radius: 17px;
+  color: white;
+  background-color: #470005;
+}
+
+/* Our portfolio  */
+
+.portFolioGalleryDiv {
+  padding: 100px 0 50px 0;
+}
+
+/* PortFolioGallery  */
+.portFolioGallery {
+  overflow: hidden;
+}
+.portFolioGallery .one {
+  width: 33.33%;
+  height: 250px;
+  float: left;
+}
+.portFolioGallery .one img {
+  object-fit: cover;
+  height: 100%;
+}
+.portFolioGallery .one.dark {
+  background: url("../images/bgPic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portFolioGallery .one.dark .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #470005e6;
+  padding: 112px 0;
+}
+
+.portFolioGallery .one.dark .overlay a {
+  margin: auto;
+  display: block;
+  border: none;
+  padding: 13px;
+  border-radius: 29px;
+}
+
+/* businessService */
+
+.businessService {
+  background: url("../images/bgPic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  background-position: 0 -53px;
+}
+.businessService .overlay {
+  background-color: #f0e8bbf0;
+  display: block;
+  width: 100%;
+  min-height: 400px;
+  padding: 80px 0;
+}
+.businessService .overlay .inner {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.businessService .overlay .inner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  line-height: 45px;
+}
+.businessService .overlay .inner p {
+  font-family: sans-serif;
+  margin: 26px 0;
+  line-height: 25px;
+}
+
+.businessService .overlay .inner a {
+  border: none;
+
+  padding: 14px 114px;
+  border-radius: 31px;
+  background-color: #470005;
+  color: white;
+  margin-top: 23px;
+}
+
+/* Consulting  */
+
+.aboutUs {
+  padding: 100px 0;
+}
+.consulting .left {
+  padding: 0 100px 0 0;
+}
+.consulting .left p {
+  font-size: 17px;
+  font-family: sans-serif;
+  line-height: 26px;
+  margin-bottom: 41px;
+  margin-top: 57px;
+}
+
+.consulting .left a {
+  border: none;
+  padding: 9px 23px;
+  border-radius: 23px;
+  color: white;
+  background-color: #470005;
+  margin-top: 100px;
+}
+.consulting .right {
+  background-color: #470005;
+  padding: 16px;
+}
+
+/* Client Parts  */
+.clientPartsMain {
+  padding: 50px 0;
+}
+
+.clientParts {
+  overflow: hidden;
+}
+.clientPartsMain .headingLine h1 {
+  padding: 10px 0 50px 0;
+}
+.clientPart {
+  width: 30%;
+  float: left;
+  padding: 0 10px;
+}
+.clientPart > p {
+  font-size: 14px;
+  line-height: 25px;
+  border: 1px solid #0000004a;
+  padding: 15px;
+}
+
+.clientPart .clientImage {
+  overflow: hidden;
+  padding: 30px 0px;
+}
+
+.clientPart .clientImage .imageClient {
+  float: left;
+  width: 40%;
+}
+.clientPart .clientImage .textClient {
+  float: left;
+  width: 60%;
+  padding-top: 28px;
+}
+
+.clientPaginationDiv {
+  width: 200px;
+  margin: auto;
+  padding: 0 0 50px 0;
+}
+.clientPaginationDiv span {
+  padding: 0px 24px;
+  background-color: #470005;
+  margin: 0 3px;
+  border-radius: 20px;
+}
+.clientPaginationDiv span.light {
+  background-color: #d1b75e;
+}
+
+/* Request A call Back  */
+
+.requestCall {
+  text-align: center;
+}
+
+.requestCall h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.requestCall p {
+  font-size: 15px;
+}
+.form {
+  padding: 30px 0 70px 0;
+}
+.form .formInner {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.form .formInner input,
+.form .formInner textarea {
+  display: block;
+  width: 100%;
+  padding: 8px 26px;
+  margin-bottom: 15px;
+  border: 1px solid #00000052;
+  border-radius: 18px;
+}
+
+.form .formInner .formButton a {
+  border: none;
+  padding: 15px 58px;
+  border-radius: 33px;
+  margin: auto;
+  display: inline-block;
+  margin-top: 65px;
+  color: white;
+  background-color: #d1b75e;
+}
+
+/* BigFooter  */
+
+.bigFooter {
+  background-color: #470005;
+  padding: 50px 0 20px 0;
+}
+.bigFooter .container .bigFooterInner {
+  overflow: hidden;
+  color: white;
+}
+.bigFooter .container .bigFooterInner .bigFooterPart h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.bigFooter .container .bigFooterInner .bigFooterPart p {
+  font-size: 13px;
+  line-height: 24px;
+  color: #ffffffe1;
+}
+
+.bigFooter .container .bigFooterInner .bigFooterPart {
+  float: left;
+  width: 25%;
+  padding: 0 20px;
+}
+
+.bigFooter .container .bigFooterInner .bigFooterPart ul li {
+  margin: 10px 0;
+  font-size: 13px;
+  color: #ffffffe1;
+}
+
+.bigFooter .container .bigFooterInner .newsLetter {
+  float: left;
+  width: 50%;
+}
+
+.bigFooter .container .bigFooterInner .newsLetter .head {
+  overflow: hidden;
+}
+
+.bigFooter .container .bigFooterInner .newsLetter .head h1 {
+  float: left;
+}
+
+.bigFooter .container .bigFooterInner .newsLetter .head .socialIcons {
+  float: right;
+}
+
+.bigFooter .container .bigFooterInner .newsLetter .head .socialIcons i {
+  margin: 0 2px;
+  padding: 6px 7px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.formFooter {
+  padding: 20px 0;
+}
+.formFooter input {
+  display: block;
+  width: 100%;
+  border: none;
+  background: none;
+  border: 1px solid #ffffff75;
+  padding: 13px 16px;
+  border-radius: 24px;
+  margin-bottom: 10px;
+}
+.formFooter input::placeholder {
+  color: rgba(255, 255, 255, 0.788);
+}
+.formFooter a {
+  border: none;
+  padding: 15px 48px;
+  border-radius: 33px;
+  margin-top: 45px;
+  color: white;
+  background-color: #d1b75e;
+}
+.subscribe {
+  overflow: hidden;
+  padding: 18px 0;
+}
+
+/* Footer  */
+
+.footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
+/* Media Query  */
+
+
+@media only screen and (max-width:825px) {
+  .heroImageText .right .twoButtons .btn{
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+/* client part  */
+
+.clientPart {
+  width: 50%;
+  margin:0;
+  padding:20px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 666px) {
+
+/* heroImageSide */
+.heroImageText {
+  width: 100%;
+  float: left;
+  padding: 0 60px;
+  margin-top: 80px;
+  overflow: hidden;
+}
+.heroImageSide {
+  float: left;
+  width: 40%;
+  position: relative;
+  padding-top: 50px;
+  background: none;
+  background-repeat: no-repeat;
+  height: 450px;
+  padding-left: 25px;
+}
+
+.heroImageSide .front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heroImageSide .front img {
+  display: none;
+}
+
+.paginationSectionInner .imgPart {
+  float: left;
+  width: 50%;
+  background: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+.paginationSectionInner{
+  display: none;
+}
+
+
+/* Service Section  */
+
+
+.service .servicePart {
+  position: relative;
+  float: left;
+  width: 50%;
+  margin:0;
+  background-color: #f4f1c3;
+  padding: 70px 13px;
+}
+
+/* About Us  */
+
+
+.aboutUs .left {
+  float: left;
+  width: 100%;
+  margin: 20px 0;
+}
+.aboutUs .right {
+  float: left;
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px 10px;
+}
+ /* Consulting  */
+
+
+.consulting .left {
+  padding: 0 100px 0 0;
+  float: left;
+  width: 100%;
+}
+.consulting .left p {
+  font-size: 17px;
+  font-family: sans-serif;
+  line-height: 26px;
+  margin-bottom: 41px;
+  margin-top: 57px;
+}
+
+.consulting .left a {
+  border: none;
+  padding: 9px 23px;
+  border-radius: 23px;
+  color: white;
+  background-color: #470005;
+  margin-top: 100px;
+}
+.consulting .right {
+  background-color: #470005;
+  padding: 16px;
+  float: left;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* form inner  */
+
+.form .formInner {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Big Footer  */
+.bigFooter .container .bigFooterInner .bigFooterPart {
+  float: left;
+  width: 100%;
+  margin: 20px 0;
+  padding:0;
+}
+.bigFooter .container .bigFooterInner .newsLetter .head h1 {
+  float: none;
+  margin: 10px 0;
+}
+
+.bigFooter .container .bigFooterInner .newsLetter .head .socialIcons {
+  float: none;
+}
+.consulting .left {
+  padding: 0 0 0 0;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+}
